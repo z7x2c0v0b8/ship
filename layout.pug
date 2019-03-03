@@ -1,0 +1,23 @@
+doctype html
+html(lang='zh-tw')
+	head
+		meta(charset='UTF-8')
+		meta(name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1")
+		link(rel="icon", href="https://i.imgur.com/TkId2V2.png", type="image/png")
+		block head title
+			title 豪華GAY船與色誘團
+		block head style
+			link(rel='stylesheet prefetch', href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css')
+			link(rel='stylesheet prefetch', href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+			link(rel='stylesheet', href='./assets/styles.css')
+			link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css')
+	body
+		block body_navigation
+			include navigation
+
+		block init_script
+			script(src="https://code.jquery.com/jquery-1.11.1.min.js")
+			script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+			script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+
+		block body_script
