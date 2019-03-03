@@ -6,7 +6,7 @@
 [start_keyconfig]
 
 
-[bg storage="room.jpg" time="100"]
+[bg storage="kaitou_room.jpg" time="100"]
 
 ;顯示菜單按鈕
 @showmenubutton
@@ -36,29 +36,64 @@
 [chara_face name="akane" face="happy" storage="chara/akane/happy.png"]
 [chara_face name="akane" face="sad" storage="chara/akane/sad.png"]
 
+;flower
+[chara_new  name="flower" storage="chara/flower/normal.png" jname="墨花"  ]
+[chara_face name="flower" face="angry" storage="chara/flower/angry.png"]
+[chara_face name="flower" face="ops" storage="chara/flower/ops.png"]
+[chara_face name="flower" face="happy" storage="chara/flower/happy.png"]
+
+;zang
+[chara_new  name="zang" storage="chara/zang/normal.png" jname="樂正冉"  ]
+[chara_face name="zang" face="angry" storage="chara/zang/angry.png"]
+[chara_face name="zang" face="ops" storage="chara/zang/ops.png"]
+[chara_face name="zang" face="happy" storage="chara/zang/happy.png"]
+[chara_face name="zang" face="wink" storage="chara/zang/wink.png"]
+[chara_face name="zang" face="hmm" storage="chara/zang/hmm.png"]
+
+;zoo
+[chara_new  name="zoo" storage="chara/zoo/normal.png" jname="濡娘"  ]
+[chara_face name="zoo" face="angry" storage="chara/zoo/angry.png"]
+[chara_face name="zoo" face="ops" storage="chara/zoo/ops.png"]
+[chara_face name="zoo" face="happy" storage="chara/zoo/happy.png"]
+[chara_face name="zoo" face="wink" storage="chara/zoo/black.png"]
+
 
 ;yamato
 [chara_new  name="yamato"  storage="chara/yamato/normal.png" jname="やまと" ]
 
 #
-さて、ゲームが簡単に作れるというから、来てみたものの[p]
+這裡是怪盜們的基地，某棟大樓的一角。[p]
 
-誰もいねぇじゃねぇか。[p]
-……[p]
-帰るか。。。[p]
+已經好一陣子沒有收入，連房租都付不起的怪盜團團員們陷入大危機！[p]
+大家因此聚在一起商量該如何是好……[p]
 
-[font  size="30"   ]
-#?
-ちょっとまったーーーーー[p]
+[chara_show  name="flower" face="happy"  ]
+[font size="30"   ]
+#墨花
+我們沒有錢——！[p]
 [resetfont  ]
 
-#
-誰だ！？[p]
+[chara_hide name="flower"]
+[chara_show  name="zang" face="angry"  ]
+#樂正冉
+我們不會就這樣餓死了吧......連基本的飯都煮不起。[p]
 
-;角色登場
-[chara_show  name="akane"  ]
-#?
-こんにちは。[p]
+[chara_show  name="zoo" face="happy"  ]
+#濡娘
+已經被停伙停了三天，停電也停了五天。[p]
+
+[chara_hide name="zoo" wait="false"]
+[chara_hide name="zang" wait="false"]
+
+#
+[p]
+
+[chara_show  name="flower" face="happy" ]
+[font size="30"   ]
+#墨花
+那我們去夜店吃飯吧——！[p]
+[resetfont  ]
+
 私の名前はあかね。[p]
 #あかね
 もしかして、ノベルゲームの開発に興味があるの？[p]
