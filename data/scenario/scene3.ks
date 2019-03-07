@@ -6,7 +6,7 @@
 [start_keyconfig]
 
 
-[bg storage="ship_outdoor.jpg" time="100"]
+[bg storage="bar.jpg" time="100"]
 
 ;聲明出現在此遊戲中的角色
 ;flower
@@ -42,12 +42,8 @@
 [chara_face name="cat" face="ops" storage="chara/cat/ops.png"]
 [chara_face name="cat" face="happy" storage="chara/cat/happy.png"]
 
-;NPC
-[chara_new  name="NPC" storage="chara/NPC/normal.jpg" jname="守衛"  ]
-
-;minf
-[chara_new  name="minf" storage="chara/minf/normal.jpg" jname="???"  ]
-
+;bar
+[chara_new  name="bar" storage="chara/bar/normal.jpg" jname="酒保"  ]
 
 ;隱藏菜單按鈕
 @hidemenubutton
@@ -120,182 +116,179 @@
 
 @playbgm time="3000" storage=scene1.ogg loop=true
 
-[chara_show  name=cat face=happy]
-#黑美人
-喵喵喵喵！[p]
-[chara_show  name=zoo face=happy]
-#濡娘
-啊，是個皮製的錢包。[p]
+
+[chara_show  name=bar]
+#酒保
+各位要喝什麼呢？[p]
 
 [chara_hide_all time=0]
-@layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
-@layopt layer="2" visible=true
-[font color="0xFFFFFF"]
-[current layer="2"]
-#
-test[r][l]
-[cm]
-@layopt layer=2 visible=false
-
-@layopt layer=message0 visible=true
-[current layer="message0"]
-[font color="0x454D51"]
-#黑美人
-喵我發現的！[p]
-
-#
-————。[p]
-
-[bg storage="ship_outdoor.jpg" method="crossfade" time="1000"]
-[chara_show  name=zoo ]
-#濡娘
-說話的貓？嗯這我看多了，我們俄羅斯的貓都差不多這個樣子很會說話，大家不用緊張。[p]
-[chara_mod name="zoo" face=happy time=0]
-這錢包裡的銀幣剛好就是我國家的硬幣哪，我就先收著囉，看來今天真有好兆頭啊。[p]
-
-[chara_show  name=zang ]
-#樂正冉
-哪，黑美人，可以幫忙引開那個站在入口處的守衛的注意嗎？ㄜ….裝可愛之類的？[p]
-
-[chara_hide_all time=0]
-[chara_show  name=cat face=happy]
-#黑美人
-喵～～～～[p]
-
-[chara_show  name=NPC ]
-#守衛
-呀，是貓咪啊，真可愛。[p]
-
-[chara_hide_all time=0]
-
-[chara_show  name=flower face=happy]
-#墨花
-趁現在GoGoGo！！[p]
-
-[chara_hide_all time=0]
-
-[chara_show  name=minf]
-#???
-ㄟㄟㄟ，你們是想搭上那艘船是吧？讓我幫幫你們吧，跟著我來。[p]
-
-[chara_show name="zoo" face="ops"]
-[chara_move name=zoo left=10 anim=true]
-#濡娘
-嘿……[p]
-
-#???
-ㄟ...ㄟ~你們這是不想過是嗎？都離我離的這麼遠遠的.....啊啊不管就你跟我來吧。[p]
-
-[chara_hide_all time=0]
-
-[chara_show  name=NPC]
-#守衛
-好的，這位先生請入場.....小姐，你的票呢？[p]
-
-[chara_show name="zoo" face="happy"]
-#濡娘
-啊那個，我是這個老先生帶來的....外傭，今天是陪著他當看護的。[p]
-
-#???
-咳咳——對，這個人是來照顧我的，咳咳。[p]
-
-[chara_hide_all time=0]
-
-[chara_show name="zang" face="ops"]
-#樂正冉
-糟了！他們入場了！我們快跟上！[p]
-
-#守衛
-欸欸欸，你們的票呢？[p]
-
-[chara_show name="flower" face="ops"]
-#墨花
-對，那個外傭是外國人所以需要有人幫她翻譯才行。[p]
-[chara_hide  name=zang wait=false ]
-哥哥.....求求你嘛，他沒有我不行的....[p]
-
-#守衛
-啊.....好行行行，你快跟過去吧，別跟丟了啊。[p]
-
-[chara_mod name=flower face=happy time=0]
-#墨花
-謝謝守衛哥哥<3[p]
-
-[chara_hide_all time=0]
-
-[chara_show  name=ball]
-#秦毬
-(要怎麼做呢....)[p]
-
-[glink  color="blue"  storage="scene2.ks"  size="20"  x="260"  width="400"  y="150"  text="交出事前造假的身分證和文件抵押獲得信任"  target="*j1"  ]
-[glink  color="blue"  storage="scene2.ks"  size="20"  x="260"  width="400"  y="220"  text="我的貓跑進去了，不進去找不行"  target="*j2"  ]
-[s  ]
-
-*j1
-[cm]
-#秦毬
-守衛先生，這邊有我的身分證和外勞工作證，就先放在您身上壓著。[p]
-這樣我本人跑不掉，你也方便調調查我，如何？[p]
-#守衛
-嗯，就交給我吧，真是個很有禮貌的外傭呢，你的主人一定會替你感到高興的，快去吧！[p]
-@jump target=*common_2
-
-*j2
-[cm]
-[chara_mod name=ball face=angry time=0]
-#秦毬
-不曉得守衛先生方才有沒有看到一隻黑貓？……那是我養的貓。[p]
-我只是剛好經過此地沒想到他一看到這艘船就一溜菸的往你們這邊這邊跑……。[p]
-#守衛
-啊，原來那是你的貓啊？[p]
-#秦毬
-是的，他叫黑美人，一身烏黑亮麗著實可愛，不知能否給個方便讓我進去找找？他對我來說很重要……[p]
-#守衛
-嗯……這樣啊，我知道了，你趕快進去吧！快去快回！[p]
-@jump target=*common_2
-
-*common_2
-
-[chara_hide_all time=0]
-
-[chara_show  name=zang face=ops]
-#樂正冉
-欸……欸欸欸！！？你們怎就這樣走了？！[p]
-[chara_show  name=NPC]
-[chara_mod name=zang face=happy time=0]
-嗯……哥哥行行好讓我過嘛，我給你我的電話。[p]
-[chara_mod name=zang face=wink time=0]
-全套，隨call隨到，再給你個優惠折扣打八折！如何？[p]
-#守衛
-————！[p]
-
-@layopt layer=message0 visible=false
-[chara_hide_all time=0]
-[bg storage="ship_indoor.jpg" method="crossfade" time="3000"]
-@layopt layer=message0 visible=true
 
 [chara_show  name=flower]
 #墨花
-哼恩~原來那個守衛男女通吃呢！[p]
+香檳～～[p]
+
 [chara_show  name=zoo]
 #濡娘
-恩真是多元成家的範例。[p]
-[chara_mod name=flower face=happy time=0]
-#墨花
-不知道剛剛那個老人是不是也男女通吃！[p]
-[chara_mod name=zoo face=ops time=0]
-#濡娘
-對老人呢？怎一個眨眼就不見了？[p]
+伏特加麻煩。[p]
 
 [chara_hide_all time=0]
+
+[glink  color="blue"  storage="scene3.ks"  size="20"  x="260"  width="400"  y="150"  text="紅酒"  target="*j3"  ]
+[glink  color="blue"  storage="scene3.ks"  size="20"  x="260"  width="400"  y="220"  text="養樂多"  target="*j4"  ]
+[s  ]
+
+*j3
+[cm]
+[chara_show  name=zang face=ops]
+#樂正冉
+誒誒誒，你怎能喝酒呢？那杯就給我吧。[p]
+[chara_mod name=zang face=happy time=0]
+我幫你點個....柳橙汁？[p]
+[chara_show  name=ball face=ops]
+#秦毬
+啥？[p]
+@jump target=*common_3
+
+*j4
+[cm]
+[chara_show  name=zang face=happy]
+#樂正冉
+那我要喝柳橙汁！另外再加一杯牛奶，我們家的貓要喝的。[p]
+[chara_show  name=cat face=happy]
+#黑美人
+喵～[p]
+
+@jump target=*common_3
+
+*common_3
+
+[chara_hide_all time=0]
+[chara_show  name=bar]
+#酒保
+好、好的，請稍後[p]
+[chara_hide  name=bar wait=false time=0]
+
+[chara_show  name=flower face=angry]
+#墨花
+酒保，你們這邊有DJ嗎？[p]
+
+#酒保
+什麼？[p]
+
+[chara_show  name=zang face=angry]
+#樂正冉
+這裡的氣氛有點冷啊~放點音樂來熱熱場子唄？[p]
+
+[chara_hide_all time=0]
+[chara_show  name=bar]
+#酒保
+這⋯⋯這是我們的疏忽，我現在就找個音樂來。[p]
+[chara_hide  name=bar wait=false time=0]
+
+@fadeoutbgm time="3000"
+@fadeinbgm time="3000" storage=bar.ogg loop=true
+
+[chara_show  name=zang face=angry]
+#樂正冉
+⋯⋯原來是這種酒店啊？[p]
+
+#酒保
+這裡是酒吧！[p]
+
+[chara_show  name=zoo face=ops]
+#濡娘
+嗯？⋯⋯我們好像應該問他些什麼。[p]
+
+[chara_hide_all time=0]
+
+[chara_show  name=cat]
+#黑美人
+問鑽石的事喵！[p]
 
 [chara_show  name=zang face=hmm]
 #樂正冉
-啊，那邊有會場的文宣，應該會有地圖甚麼的。[p]
-@playse storage=drop.ogg loop=false
+喔對耶！[p]
+
+[chara_hide  name=cat wait=false]
+[chara_show  name=zang time=0]
+#樂正冉
+酒保先生，你知道這次的會場上有展示一個聽說是世界級珍貴的的黑鑽石嗎？[p]
+
+[chara_show  name=bar]
+#酒保
+嗯鑽石我是不清楚啦，不過這次主辦的珠寶協會的會長不好的緋聞很多，我不是那麼喜歡他就是了。[p]
+
+[chara_hide  name=zang wait=false]
+[chara_show  name=zoo time=0]
+#濡娘
+嗯？怎麼說[p]
+
+#酒保
+哎呀這個...不好說。[p]
 
 [chara_hide_all time=0]
+[chara_show  name=flower face=happy]
+#墨花
+唉呦帥哥帥哥~講給我們嘛，人家想聽八卦～[p]
+
+[chara_hide_all time=0]
+[chara_show  name=bar]
+#酒保
+哎⋯⋯真拿小姐沒辦法。[p]
+上次那個會長來我們酒吧的時候，他竟然說要找一個在夜晚出現帶著沼澤氣味的河童？[p]
+那人看起來一本正經卻滿口都是這種怪力亂神的事情，真是叫人噁心⋯⋯[p]
+
+[chara_hide_all time=0]
+[chara_show  name=ball]
+#秦毬
+河童⋯⋯那你知道他人現在在哪嘛？[p]
+
+#酒保
+他人現在應該在會場附近巡視吧。？[p]
+
+[chara_show  name=zang face=happy]
+#樂正冉
+那你知道他喜歡些甚麼嘛？[p]
+
+[chara_hide_all time=0]
+[chara_show  name=bar]
+#酒保
+欸？嗯⋯⋯既然他都這麼認真在講了那大概就是喜歡些怪力亂神的東西吧？[p]
+
+[chara_show  name=zoo]
+#濡娘
+那他一定會喜歡我們的貓，他會說ㄍㄋㄋ[p]
+
+#酒保
+？？？？？？[p]
+啊...這貓我是沒太大的興趣，不過你們認識那把槍嗎？掛在牆上的那把。[p]
+
+[chara_hide_all time=0]
+[chara_show  name=zang face=angry]
+#樂正冉
+怎麼會是你問我們啊？不是我們該問你這問題嘛？[p]
+
+[chara_show  name=bar]
+#酒保
+啊行行，不知道吧！[p]
+那把槍啊就跟大船上除魔的東西一樣，是不知道還能不能使用的舊東西了。[p]
+不過聽說等一個成熟的時機到了，槍身就會發出光芒⋯⋯[p]
+擊破真實之後便能驅魔惡魔，是把很厲害的槍呢！[p]
+
+[chara_hide_all time=0]
+[chara_show  name=flower]
+#墨花
+哇～是把很中二的槍呢！[p]
+[chara_show  name=zang face=happy]
+#樂正冉
+哇這肯定能賣錢的，可以給我們嗎哈哈？[p]
+
+[chara_hide_all time=0]
+@fadeoutbgm time="3000"
+@fadeinbgm time="3000" storage=gun.ogg loop=true
+#
+鏗————！[p]
+
 @layopt layer=message0 visible=false
 [bg storage="default.png" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
@@ -306,28 +299,41 @@ test[r][l]
 [cm]
 @layopt layer=2 visible=false
 
-[bg storage="ship_indoor.jpg" method="crossfade" time="1000"]
-
 @layopt layer=message0 visible=true
 [current layer="message0"]
 [font color="0x454D51"]
-
-[chara_show  name=flower face=happy]
 #墨花
-是酒吧耶！[p]
+就⋯⋯就是J個！！[p]
+#酒保
+這⋯⋯這怎麼可⋯⋯可能[p]
+
+[bg storage="bar.jpg" method="crossfade" time="1000"]
+
+[chara_show  name=flower face=angry]
+#墨花
+嗯奇怪....怎麼拿不下來？！[p]
+
 [chara_show  name=zang face=happy]
 #樂正冉
-好！去酒吧看看吧！[p]
+嗯~好可惜啊，如果要賣這把槍的話，就要連墨花都要一起賣出去了呢。賣槍贈美人！[p]
+
+[chara_mod name=flower face=ops time=0]
+#墨花
+嗚嗚嗚嗚怎麼不是黏在黑美人身上！[p]
 
 [chara_hide_all time=0]
 
-[chara_show  name=ball face=angry]
-#秦毬
-等等，我們什麼都還沒做就開始慶功嗎？[p]
-[chara_show  name=flower]
+[chara_show  name=cat face=ops]
+#黑美人
+喵嗚~~~~~~喵！[p]
+
+[chara_hide_all time=0]
+
+[chara_show  name=flower face=angry]
 #墨花
-先慶功一下啊！我們都登上船了耶！[p]
+好吧.....那我先把我的手藏在袖子裡吧！[p]
 
 [chara_hide_all]
-[bg storage="bar.jpg" time="3000"]
-@jump storage="scene3.ks"
+@layopt layer=message0 visible=false
+[bg storage="guest_room.jpg" time="3000"]
+@jump storage="scene4.ks"
