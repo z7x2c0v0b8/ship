@@ -54,10 +54,10 @@
 [chara_new  name="yamato"  storage="chara/yamato/normal.png" jname="やまと" ]
 
 ;隱藏菜單按鈕
-@hidemenubutton
+[showmenubutton]
 
 ;客製化對話框
-[font color="0x454D51"]
+[font color="0x454D51" size=20]
 [deffont color="0x454D51"]
 
 [position layer="2" page=fore margint="45" marginl="50" marginr="70" marginb="60"]
@@ -69,56 +69,13 @@
 @layopt layer="message1" visible=false
 
 ;對話框
-[position layer=message0 width=960 height=210 top=430 left=0]
-[position layer=message0 page=fore frame="frame.png" margint="45" marginl="50" marginr="70" marginb="60" opacity=230 ]
+[position layer=message0 width=960 height=240 top=400 left=0]
+[position layer=message0 page=fore frame="frame_1.png" margint="65" marginl="68" marginr="70" marginb="60" opacity=230 ]
 [chara_config ptext="chara_name_area"]
-[ptext name="chara_name_area" layer="message0"  color="0xFAFAFA"  size=24 x=40 y=435]
+[ptext name="chara_name_area" layer="message0"  color="0xFAFAFA"  size=20 x=80 y=430]
 @layopt layer=message0 visible=true
 
-
-;添加角色按鈕;;;;;;;;;;;;;;;;
-	
-[button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png" x=35 y=610]
-
-;	オート
-[button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png" x=110 y=610]
-
-;	セーブ
-[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png" x=185 y=610]
-
-;ロード
-[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png" x=260 y=610]
-
-;クイックセーブ
-[button name="role_button" role="quicksave" graphic="button/qsave.png" enterimg="button/qsave2.png" x=335 y=610]
-
-;クイックロード
-[button name="role_button" role="quickload" graphic="button/qload.png" enterimg="button/qload2.png" x=410 y=610]
-
-;バックログ
-[button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x=485 y=610]
-
-;メッセージウィンドウ非表示
-[button name="role_button" role="window" graphic="button/close.png" enterimg="button/close2.png" x=560 y=610]
-
-;フルスクリーン切替
-[button name="role_button" role="fullscreen" graphic="button/screen.png" enterimg="button/screen2.png" x=635 y=610]
-
-;メニュー呼び出し（※ロールボタンを使うなら不要）
-[button name="role_button" role="menu" graphic="button/menu.png" enterimg="button/menu2.png" x=710 y=610]
-
-;コンフィグ（※sleepgame を使用して config.ks を呼び出しています）
-[button name="role_button" role="sleepgame" graphic="button/sleep.png" enterimg="button/sleep2.png" x=785 y=610 storage="config.ks"]
-
-;タイトルに戻る
-[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png" x=860 y=610]
-
-;;ロールボタン追加終わり
-
-
-
-
-
+[button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png" x=861 y=452]
 
 @playbgm time="3000" storage=scene1.ogg loop=true
 #
@@ -159,8 +116,8 @@
 唉……我去看看冰箱還有些什麼好了。[p]
 
 ;玩家選擇選項
-[glink  color="blue"  storage="scene1.ks"  size="20"  x="260"  width="400"  y="150"  text="都停電三天了冰箱有食物也壞了"  target="*selection_1"  ]
-[glink  color="blue"  storage="scene1.ks"  size="20"  x="260"  width="400"  y="220"  text="不可能會有的，你這麼會吃"  target="*selection_2"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  x="260"  width="400"  y="150"  text="都停電三天了冰箱有食物也壞了"  target="*selection_1"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  x="260"  width="400"  y="220"  text="不可能會有的，你這麼會吃"  target="*selection_2"  ]
 [s  ]
 
 *selection_1
@@ -201,7 +158,7 @@
 
 [chara_hide name="zoo" wait="false" time="0"]
 
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="newspaper.jpg" method="crossfade" time="1000"]
 @layopt layer=message0 visible=false
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
@@ -274,8 +231,8 @@ Let’s partyyyyyyyyy[p]
 #樂正冉
 不過果然還是先看看天氣如何唄，討個好兆頭！今天的天氣是........[p]
 
-[glink  color="blue"  storage="scene1.ks"  size="20"  x="260"  width="400"  y="150"  text="晴天"  target="*selection_3"  ]
-[glink  color="blue"  storage="scene1.ks"  size="20"  x="260"  width="400"  y="220"  text="雨天"  target="*selection_4"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  x="260"  width="400"  y="150"  text="晴天"  target="*selection_3"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  x="260"  width="400"  y="220"  text="雨天"  target="*selection_4"  ]
 [s  ]
 
 *selection_3
@@ -544,11 +501,11 @@ AppStoreやGooglePlayに向けてアプリ化して販売することもでき�
 [anim name="akane" left=600 time=1000]
 
 ;リンクボタンを表示
-[glink text="ティラノビルダーの紹介" size=20 width=500 x=30 y=100 color=blue target=tyranobuilder ]
-[glink text="制作事例" size=20 width=500 x=30 y=160 color=blue target=example ]
-[glink text="応用テクニック" size=20 width=500 x=30 y=220 color=blue target=tech ]
-[glink text="役に立つ情報源" size=20 width=500 x=30 y=280 color=blue target=info ]
-[glink text="タグリファレンス" size=20 width=500 x=30 y=340 color=blue target=tagref ]
+[glink text="ティラノビルダーの紹介" size=20 width=500 x=30 y=100 color=black target=tyranobuilder ]
+[glink text="制作事例" size=20 width=500 x=30 y=160 color=black target=example ]
+[glink text="応用テクニック" size=20 width=500 x=30 y=220 color=black target=tech ]
+[glink text="役に立つ情報源" size=20 width=500 x=30 y=280 color=black target=info ]
+[glink text="タグリファレンス" size=20 width=500 x=30 y=340 color=black target=tagref ]
 
 [s]
 

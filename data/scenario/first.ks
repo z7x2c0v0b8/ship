@@ -1,6 +1,6 @@
 ;一番最初に呼び出されるファイル
 
-[title name="ティラノスクリプト解説"]
+[title name="豪華Gay船與怪盜團"]
 
 [stop_keyconfig]
 

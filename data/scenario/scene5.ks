@@ -43,73 +43,30 @@
 [chara_face name="cat" face="happy" storage="chara/cat/happy.png"]
 
 ;minf
-[chara_new  name="minf" storage="chara/minf/normal.jpg" jname="???"  ]
-
+[chara_new  name="minf" storage="chara/minf/normal.png" jname="???"  ]
 ;隱藏菜單按鈕
-@hidemenubutton
+[showmenubutton]
 
 ;客製化對話框
-[font color="0x454D51"]
+[font color="0x454D51" size=20]
 [deffont color="0x454D51"]
 
-;CG圖緩衝
 [position layer="2" page=fore margint="45" marginl="50" marginr="70" marginb="60"]
 [position layer="2" left=20 top=40 width=920 height=560 page=fore visible=true]
 @layopt layer="2" visible=false
 
-;訊息框
 [position layer="message1" page=fore margint="45" marginl="50" marginr="70" marginb="60"]
 [position layer="message1" left=20 top=40 width=920 height=560 page=fore visible=true]
 @layopt layer="message1" visible=false
 
 ;對話框
-[position layer=message0 width=960 height=210 top=430 left=0]
-[position layer=message0 page=fore frame="frame.png" margint="45" marginl="50" marginr="70" marginb="60" opacity=230 ]
+[position layer=message0 width=960 height=240 top=400 left=0]
+[position layer=message0 page=fore frame="frame_1.png" margint="65" marginl="68" marginr="70" marginb="60" opacity=230 ]
 [chara_config ptext="chara_name_area"]
-[ptext name="chara_name_area" layer="message0"  color="0xFAFAFA"  size=24 x=40 y=435]
+[ptext name="chara_name_area" layer="message0"  color="0xFAFAFA"  size=20 x=80 y=430]
 @layopt layer=message0 visible=true
 
-
-;添加角色按鈕;;;;;;;;;;;;;;;;
-	
-[button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png" x=35 y=610]
-
-;	オート
-[button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png" x=110 y=610]
-
-;	セーブ
-[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png" x=185 y=610]
-
-;ロード
-[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png" x=260 y=610]
-
-;クイックセーブ
-[button name="role_button" role="quicksave" graphic="button/qsave.png" enterimg="button/qsave2.png" x=335 y=610]
-
-;クイックロード
-[button name="role_button" role="quickload" graphic="button/qload.png" enterimg="button/qload2.png" x=410 y=610]
-
-;バックログ
-[button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x=485 y=610]
-
-;メッセージウィンドウ非表示
-[button name="role_button" role="window" graphic="button/close.png" enterimg="button/close2.png" x=560 y=610]
-
-;フルスクリーン切替
-[button name="role_button" role="fullscreen" graphic="button/screen.png" enterimg="button/screen2.png" x=635 y=610]
-
-;メニュー呼び出し（※ロールボタンを使うなら不要）
-[button name="role_button" role="menu" graphic="button/menu.png" enterimg="button/menu2.png" x=710 y=610]
-
-;コンフィグ（※sleepgame を使用して config.ks を呼び出しています）
-[button name="role_button" role="sleepgame" graphic="button/sleep.png" enterimg="button/sleep2.png" x=785 y=610 storage="config.ks"]
-
-;タイトルに戻る
-[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png" x=860 y=610]
-
-;;ロールボタン追加終わり
-
-
+[button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png" x=861 y=452]
 
 
 
@@ -181,7 +138,7 @@
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="game_mumu.png" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]
@@ -321,7 +278,7 @@ test[r][l]
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="hold_up.jpg" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]
@@ -356,7 +313,7 @@ test[r][l]
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="mission_map.jpg" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]
@@ -373,7 +330,7 @@ test[r][l]
 鑽石的確切位置是在這個大展覽間理的小展覽間。[p]
 小展覽間門口外有兩個警衛，鑽石的下面還有魔法鎮。[p]
 
-[bg storage="minf_room.png" method="crossfade" time="1000"]
+[bg storage="minf_room.jpg" method="crossfade" time="1000"]
 
 [chara_show  name=flower face=ops]
 #墨花
@@ -405,5 +362,5 @@ test[r][l]
 
 
 [chara_hide_all]
-[bg storage="guest_room.jpg" time="3000"]
-@jump storage="scene5.ks"
+[bg storage="showroom_outdoor.jpg" time="3000"]
+@jump storage="scene6.ks"

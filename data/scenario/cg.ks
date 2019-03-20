@@ -31,7 +31,7 @@
 [iscript]
     tf.tmp_index = 0;
     tf.cg_index = 12 * tf.page;
-    tf.top = 100;
+    tf.top = 150;
     tf.left = 60;
     
 [endscript]
