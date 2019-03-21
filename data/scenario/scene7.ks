@@ -156,7 +156,7 @@
 @playse storage=steo.ogg loop=false
 
 [chara_show  name=zang face=hmm]
-#冉
+#樂正冉
 啊⋯⋯走掉了，看起來挺沮喪的。[p]
 
 [chara_show  name=flower face=angry]

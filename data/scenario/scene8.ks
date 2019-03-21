@@ -300,36 +300,31 @@ test[r][l]
 
 [bg storage="showroom_alter.jpg" method="crossfade" time="5000"]
 
-@playbgm time="3000" storage=shadow.ogg loop=true
 
-@layopt layer=message0 visible=true
-[chara_show  name=flower face=happy]
-#墨花
-嗯⋯⋯這些貼在地上的人影都是大家剛剛跳著妖怪手錶時的舞姿呢！[p]
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
-@layopt layer="2" visible=true
-[font color="0xFFFFFF"]
-[current layer="2"]
-#
-test[r][l]
-[cm]
-@layopt layer=2 visible=false
+
+
+[movie storage="zoo_cat.webm" skip=false ]
 
 @layopt layer=message0 visible=true
 [current layer="message0"]
 [font color="0x454D51"]
+
+[bg storage="showroom_alter.jpg" method="crossfade" time="1000"]
+
+@playbgm time="3000" storage=shadow.ogg loop=true
+
 #濡娘
 喵喵喵喵！喵喵～[p]
+
+[chara_show  name=zang face=ops]
 #樂正冉
 嗯呸呸呸，果真是很久沒清唄，這腥味實在有夠嗆的⋯⋯嗯？濡娘你這是？[p]
 #秦毬
 ⋯⋯濡娘看來是被這副場景給嚇壞了，現在只會學黑美人喵叫。[p]
 
-[bg storage="showroom_alter.jpg" method="crossfade" time="1000"]
-[chara_show  name=zang face=ops]
 #樂正冉
 欸？！欸拜託我才是最該被嚇壞的人吧！？[p]
 我就只是隨口說說罷了還真沒想到他們很久沒處理這件事了，那動作實在———。[p]
@@ -345,6 +340,10 @@ test[r][l]
 [chara_mod name=zang face=ops time=0]
 #樂正冉
 不過這地上的人影⋯⋯摸上去感覺也像是甚麼沒摸著一樣，黑洞嗎？[p]
+
+[chara_show  name=flower face=happy]
+#墨花
+嗯⋯⋯這些貼在地上的人影都是大家剛剛跳著妖怪手錶時的舞姿呢！[p]
 
 [chara_hide_all time=0]
 
