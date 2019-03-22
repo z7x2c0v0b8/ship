@@ -27,11 +27,21 @@ body
     section#landing_menu
       a(href="../index.html")
         #logo
-      #menu_item
+      #menu_item.hidden-xs
         .item About
-        .item Gallery
+        a(href="../gallery.html") 
+          .item Gallery
         .item Bonus
         .item Infor
+      #menu_btn_mobile.visible-xs
+        .icon
+      .menu_item_mobile
+        ul
+          li dddd
+          li sdsds
+          li sdsd
+          li sdcsd
+
 
   script.
     $(document).ready(function(){
@@ -39,6 +49,10 @@ body
         autoplay: true,
         autoplaySpeed: 2000,
       });
+    });
+    $('.icon').on('click', function() {
+      $(this).toggleClass('on');
+      $('.menu_item_mobile').fadeToggle(200);
     });
   script(type='text/javascript', src="//code.jquery.com/jquery-1.11.0.min.js")
   script(type='text/javascript', src="//code.jquery.com/jquery-migrate-1.2.1.min.js")

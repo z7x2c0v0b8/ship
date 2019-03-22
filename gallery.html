@@ -44,23 +44,50 @@
 </nav>
 <body>
   <div class="page">
-    <section id="about">
+    <section id="gallery">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-xs-12" style="padding: 0">
-            <div class="left_img"></div>
-          </div>
-          <div class="col-sm-6 col-xs-12" style="padding: 0">
-            <div class="right_about"></div>
+          <div class="col-xs-12" style="padding: 0">
+            <div class="your_class">
+              <div class="item" style="background-image: url('../data/bgimage/end_1.jpg')">
+                <div class="word">
+                  <div class="name">淤積</div>
+                  <div class="content">
+                    <h4>
+                       給阿溫<br/><br/>測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="item" style="background: cadetblue">
+                <div class="word"></div>
+              </div>
+              <div class="item" style="background: coral">
+                <div class="word"></div>
+              </div>
+              <div class="item" style="background: gray"> </div>
+              <div class="item" style="background: green"> </div>
+              <div class="item" style="background: yellow"> </div>
+            </div>
           </div>
         </div>
-        <div class="main_img"></div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="your_class_gallery">
+              <div class="item" style="background-image: url('../data/bgimage/end_1.jpg')"></div>
+              <div class="item" style="background: cadetblue"> </div>
+              <div class="item" style="background: coral"> </div>
+              <div class="item" style="background: gray"> </div>
+              <div class="item" style="background: green"> </div>
+              <div class="item" style="background: yellow"> </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="landing_menu"><a href="../index.html">
         <div id="logo"></div></a>
-      <div class="hidden-xs" id="menu_item">
-        <div class="item">About</div><a href="../gallery.html"> 
+      <div class="hidden-xs" id="menu_item"><a href="../about.html"> 
+          <div class="item">About</div></a><a href="../gallery.html"> 
           <div class="item">Gallery</div></a>
         <div class="item">Bonus</div>
         <div class="item">Infor</div>
@@ -81,8 +108,18 @@
   <script>
     $(document).ready(function(){
       $('.your_class').slick({
-        autoplay: true,
-        autoplaySpeed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrow: false,
+        fade: true,
+        asNavFor: '.your_class_gallery'
+      });
+      $('.your_class_gallery').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.your_class',
+        dot: true,
+        focusOnSelect: true
       });
     });
     $('.icon').on('click', function() {

@@ -15,33 +15,77 @@ block body_navigation
   include navigation     
 body
   .page
-    section#landing
+    section#gallery
       .container
         .row
           .col-xs-12(style="padding: 0")
             .your_class
-              .item(style="background: aquamarine") 
+              .item(style="background-image: url('../data/bgimage/end_1.jpg')")
+                .word
+                  .name 淤積
+                  .content
+                    h4 
+                      | 給阿溫
+                      br
+                      br
+                      | 測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試
+
+              .item(style="background: cadetblue")
+                .word
+              .item(style="background: coral")
+                .word
+              .item(style="background: gray") 
+              .item(style="background: green") 
+              .item(style="background: yellow") 
+        .row
+          .col-xs-12
+            .your_class_gallery
+              .item(style="background-image: url('../data/bgimage/end_1.jpg')")
               .item(style="background: cadetblue") 
               .item(style="background: coral") 
-        #main_img
-        a#start(href="../test.html", target="_blank")
+              .item(style="background: gray") 
+              .item(style="background: green") 
+              .item(style="background: yellow") 
     section#landing_menu
       a(href="../index.html")
         #logo
-      #menu_item
-        a(href="../about.html")
+      #menu_item.hidden-xs
+        a(href="../about.html") 
           .item About
         a(href="../gallery.html") 
           .item Gallery
         .item Bonus
         .item Infor
+      #menu_btn_mobile.visible-xs
+        .icon
+      .menu_item_mobile
+        ul
+          li dddd
+          li sdsds
+          li sdsd
+          li sdcsd
+
 
   script.
     $(document).ready(function(){
       $('.your_class').slick({
-        autoplay: true,
-        autoplaySpeed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrow: false,
+        fade: true,
+        asNavFor: '.your_class_gallery'
       });
+      $('.your_class_gallery').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.your_class',
+        dot: true,
+        focusOnSelect: true
+      });
+    });
+    $('.icon').on('click', function() {
+      $(this).toggleClass('on');
+      $('.menu_item_mobile').fadeToggle(200);
     });
   script(type='text/javascript', src="//code.jquery.com/jquery-1.11.0.min.js")
   script(type='text/javascript', src="//code.jquery.com/jquery-migrate-1.2.1.min.js")

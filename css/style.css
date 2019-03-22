@@ -17,10 +17,12 @@ body {
 .page {
   position: relative; }
 
+section#gallery,
 section#about,
 section#landing {
   position: relative;
   padding-top: 8vh; }
+  section#gallery .container,
   section#about .container,
   section#landing .container {
     position: relative;
@@ -29,6 +31,7 @@ section#landing {
     background: #d6d6d6;
     -webkit-box-shadow: 0 0 50px 0 rgba(2, 0, 45, 0.3);
     box-shadow: 0 0 50px 0 rgba(2, 0, 45, 0.3); }
+  section#gallery #main_img,
   section#about #main_img,
   section#landing #main_img {
     position: absolute;
@@ -38,10 +41,12 @@ section#landing {
     right: 120px;
     background: #000; }
     @media (max-width: 790px) {
+      section#gallery #main_img,
       section#about #main_img,
       section#landing #main_img {
         right: 0;
         width: 200px; } }
+  section#gallery #start,
   section#about #start,
   section#landing #start {
     position: absolute;
@@ -51,28 +56,59 @@ section#landing {
     right: 200px;
     background: #fff; }
     @media (max-width: 790px) {
+      section#gallery #start,
       section#about #start,
       section#landing #start {
         right: 0; } }
-  section#about .your_class .slick-next,
+  section#gallery .your_class_gallery,
+  section#about .your_class_gallery,
+  section#landing .your_class_gallery {
+    padding: 20px 0;
+    height: 170px; }
+    section#gallery .your_class_gallery .item,
+    section#about .your_class_gallery .item,
+    section#landing .your_class_gallery .item {
+      height: 150px;
+      background-size: cover;
+      background-position: center; }
+  section#gallery .slick-next:before, section#gallery .slick-prev:before,
+  section#about .slick-next:before,
+  section#about .slick-prev:before,
+  section#landing .slick-next:before,
+  section#landing .slick-prev:before {
+    color: #000; }
+  section#gallery .your_class .slick-prev,
+  section#gallery .your_class .slick-next,
   section#about .your_class .slick-prev,
-  section#landing .your_class .slick-next,
-  section#landing .your_class .slick-prev {
+  section#about .your_class .slick-next,
+  section#landing .your_class .slick-prev,
+  section#landing .your_class .slick-next {
     opacity: 0; }
+  section#gallery .your_class .item,
   section#about .your_class .item,
   section#landing .your_class .item {
-    height: 100%; }
+    height: 100%;
+    background-size: cover;
+    background-position: center; }
 
 section#landing_menu {
   position: absolute;
   top: 0;
   left: 0;
   width: 200px;
-  height: auto; }
+  height: auto;
+  z-index: 9999; }
+  @media (max-width: 790px) {
+    section#landing_menu {
+      width: 100%; } }
   section#landing_menu #logo {
     width: 200px;
     height: 200px;
     background: #000; }
+    @media (max-width: 790px) {
+      section#landing_menu #logo {
+        width: 100px;
+        height: 100px; } }
   section#landing_menu #menu_item {
     padding: 50px;
     color: #000; }
@@ -80,11 +116,71 @@ section#landing_menu {
       color: #000;
       text-decoration: none; }
     section#landing_menu #menu_item .item {
+      position: relative;
       margin-bottom: 20px;
       font-size: 18px;
-      cursor: pointer; }
-      section#landing_menu #menu_item .item:hover {
-        background: red; }
+      cursor: pointer;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+      section#landing_menu #menu_item .item:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 60%;
+        height: 20px;
+        opacity: 1;
+        z-index: -1;
+        background-color: yellow;
+        -webkit-transform-origin: 0% 50%;
+        -ms-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+        -webkit-transform: scalex(0);
+        -ms-transform: scalex(0);
+        transform: scalex(0);
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s; }
+      section#landing_menu #menu_item .item:hover:after {
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1); }
+  section#landing_menu #menu_btn_mobile .icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: red;
+    z-index: 999; }
+  section#landing_menu .menu_item_mobile {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 2; }
+    section#landing_menu .menu_item_mobile ul {
+      list-style-type: none;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      right: auto;
+      bottom: auto;
+      padding: 0;
+      width: 250px;
+      text-align: center;
+      -webkit-transform: translate3d(-50%, -50%, 0);
+      transform: translate3d(-50%, -50%, 0); }
+      section#landing_menu .menu_item_mobile ul li {
+        color: #fff;
+        padding: 10px 0; }
 
 @media (max-width: 790px) {
   section#about .container {
@@ -102,3 +198,40 @@ section#about .left_img {
 section#about .right_about {
   width: 100%;
   height: 100%; }
+
+section#gallery .container {
+  height: 70vh; }
+  section#gallery .container .your_class {
+    background: #000; }
+    section#gallery .container .your_class .item {
+      opacity: 1;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+      section#gallery .container .your_class .item .word {
+        position: relative;
+        float: right;
+        width: 30%;
+        height: 100%;
+        padding: 60px;
+        background: rgba(255, 255, 255, 0.6);
+        opacity: 0;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s; }
+        @media (max-width: 790px) {
+          section#gallery .container .your_class .item .word {
+            width: 100%; } }
+        section#gallery .container .your_class .item .word .name {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          color: #fff;
+          font-size: 10rem; }
+        section#gallery .container .your_class .item .word .content h4 {
+          line-height: 30px; }
+      section#gallery .container .your_class .item:hover .word {
+        opacity: 1;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s; }
