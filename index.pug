@@ -20,11 +20,22 @@ body
         .row
           .col-xs-12(style="padding: 0")
             .your_class
-              .item(style="background: aquamarine") 
-              .item(style="background: cadetblue") 
-              .item(style="background: coral") 
+              .item(style="background: #7fffd4") 
+                .item_mask(style="background-image: url('../Images/carousel_img.png')")
+              .item(style="background: #ff6671") 
+                .item_mask(style="background-image: url('../Images/carousel_img_2.png')")
+              .item(style="background: #87c3fa") 
+                .item_mask(style="background-image: url('../Images/carousel_img_3.png')")
+              .item(style="background: #f8ff3a") 
+                .item_mask(style="background-image: url('../Images/carousel_img_4.png')") 
+        #main_mask     
         #main_img
-        a#start(href="../test.html", target="_blank")
+        #main_btn
+          #item_1
+            img(src="../Images/large_btn.png")
+          #item_2
+            img(src="../Images/large_btn_2.png")
+        a#start(href="../test.html", target="_blank") START
     section#landing_menu
       a(href="../index.html")
         #logo
