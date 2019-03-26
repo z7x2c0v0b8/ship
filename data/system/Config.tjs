@@ -107,7 +107,7 @@
 ;mediaFormatDefault = ogg; 
 
 // ◆ BGMの音量 0 〜 100 で指定します。
-;defaultBgmVolume = 50;
+;defaultBgmVolume = 80;
 
 // ◆ SEの音量 0 〜 100 で指定します。
 ;defaultSeVolume = 100;

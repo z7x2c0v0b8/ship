@@ -230,7 +230,7 @@ test[r][l]
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="foreigner_playing.jpg" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]
@@ -277,28 +277,23 @@ test[r][l]
 
 @stopbgm time="3000"
 @fadeinbgm time="3000" storage=gun.ogg loop=true 
-[chara_hide_all time=0]
-@layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
-@layopt layer="2" visible=true
-[font color="0xFFFFFF"]
-[current layer="2"]
-#
-test[r][l]
-[cm]
-@layopt layer=2 visible=false
 
-@layopt layer=message0 visible=true
-[current layer="message0"]
-[font color="0x454D51"]
+[chara_hide_all time=0]
+[chara_show  name=ball face=ops ]
 #秦毬
 等等！[p]
 我手上的木木梟⋯⋯把你手上的黃金槍給召喚過來了？[p]
+
+[chara_show  name=zang face=ops ]
 #樂正冉
 啊！換變成黏在你手上了![p]
+
+[chara_hide_all time=0]
+[chara_show  name=flower face=ops ]
 #墨花
 嗯屋～真可惜，我都還沒用過呢。[p]
 不過那不是重點！我們趕快回甲板上找到救生艇回去吧！[p]
+[chara_show  name=ball ]
 #秦毬
 嗯。[p]
 
@@ -328,7 +323,7 @@ test[r][l]
 
 @layopt layer=message0 visible=false
 [chara_hide_all time=0]
-[bg storage="default.png" method="crossfade" time="3000"]
+[bg storage="final_choose.jpg" method="crossfade" time="3000"]
 @layopt layer=message0 visible=true
 
 #秦毬
@@ -374,3 +369,4 @@ test[r][l]
 @fadeoutbgm time="3000"
 [bg storage="black.jpg" method="crossfade" time="1000"]
 [bg storage="end_5_room.jpg" method="crossfade" time="3000"]
+@jump storage="end_5.ks"

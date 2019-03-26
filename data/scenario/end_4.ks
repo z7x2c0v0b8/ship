@@ -55,21 +55,18 @@
 #???
 ⋯⋯。[p]
 
-[chara_show name=cat face=ball ]
 #秦毬貓
 ⋯⋯喵⋯⋯喵嗚？[p]
-
-[chara_shake name=cat count=5 swing=10 time=100]
 喵嗚！！！！[p]
 
-[chara_mod name=cat face=zang ]
+
 #冉貓
 喵？喵喵嗚？[p]
 
-[chara_mod name=cat face=zoo ]
-#大白
+#七老
 喵～～～～～[p]
-[chara_mod name=cat face=ops ]
+
+[chara_show name=cat face=ops ]
 #黑美人
 喵！！[p]
 

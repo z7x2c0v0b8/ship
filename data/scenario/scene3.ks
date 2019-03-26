@@ -228,7 +228,7 @@
 啊行行，不知道吧！[p]
 那把槍啊就跟大船上除魔的東西一樣，是不知道還能不能使用的舊東西了。[p]
 不過聽說等一個成熟的時機到了，槍身就會發出光芒⋯⋯[p]
-擊破真實之後便能驅魔惡魔，是把很厲害的槍呢！[p]
+擊破真實之後便能驅走惡魔，是把很厲害的槍呢！[p]
 
 [chara_hide_all time=0]
 [chara_show  name=flower]
@@ -245,7 +245,7 @@
 鏗————！[p]
 
 @layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="flower_get_gun.jpg" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]

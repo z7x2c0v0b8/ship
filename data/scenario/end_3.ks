@@ -86,6 +86,7 @@
 居然被你們識破了⋯⋯不過重要的東西我已經拿到了！[p]
 
 [chara_mod name=zoo face=monster ]
+#河童
 我不會讓你們阻撓的！我要讓我神賽伊格亞復活！[p]
 
 [chara_show  name=lin ]
@@ -104,9 +105,9 @@
 #樂正冉
 啊，外國人抱過來的是武器箱嗎？看來是要我們從裡面挑武器的樣子！[p]
 
-[glink  color="blue"  storage="end_3.ks"  size="20"  x="260"  width="400"  y="150"  text="王者之劍"  target="*j1"  ]
-[glink  color="blue"  storage="end_3.ks"  size="20"  x="260"  width="400"  y="220"  text="Excalibur"  target="*j1"  ]
-[glink  color="blue"  storage="end_3.ks"  size="20"  x="260"  width="400"  y="290"  text="咖哩棒"  target="*j1"  ]
+[glink  color="black"  storage="end_3.ks"  size="20"  x="260"  width="400"  y="150"  text="王者之劍"  target="*j1"  ]
+[glink  color="black"  storage="end_3.ks"  size="20"  x="260"  width="400"  y="220"  text="Excalibur"  target="*j1"  ]
+[glink  color="black"  storage="end_3.ks"  size="20"  x="260"  width="400"  y="290"  text="咖哩棒"  target="*j1"  ]
 [s  ]
 
 *j1

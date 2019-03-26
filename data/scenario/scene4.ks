@@ -82,7 +82,7 @@
 
 @playbgm time="3000" storage=guest_room.ogg loop=true
 
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="wth.jpg" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]
@@ -249,8 +249,46 @@ test[r][l]
 
 [chara_mod  name=zang face=happy]
 #樂正冉
-嗯嗚⋯⋯你說的是，好唄！[p]
+嗯嗚⋯⋯你說的是，那好！去操縱室看看唄[p]
 
+
+@layopt layer=message0 visible=false
+[chara_hide_all time=0]
+[bg storage="special.jpg" method="crossfade" time="3000"]
+@layopt layer=message0 visible=true
+
+@stopbgm time="3000"
+
+
+@fadeinbgm time="3000" storage=special.ogg loop=true
+
+[chara_hide_all time=0]
+@layopt layer=message0 visible=false
+[bg storage="special.jpg" method="crossfade" time="1000"]
+@layopt layer="2" visible=true
+[font color="0xFFFFFF"]
+[current layer="2"]
+#
+test[r][l]
+[cm]
+@layopt layer=2 visible=false
+
+@layopt layer=message0 visible=true
+[current layer="message0"]
+[font color="0x454D51"]
+
+#樂正冉
+嗚哇，這邊也有警衛！[p]
+他們看起來特別帥......我們一定打不過得快徹吧！[p]
+
+#秦毬
+不，比起這個，他們之間產生的氛圍好像不適合我們介入......。[p]
+
+#墨花
+這是多元成家的味道！[p]
+
+#濡娘
+要不是有要事在身還真想站在這多看一會兒呢～[p]
 
 @layopt layer=message0 visible=false
 [chara_hide_all]

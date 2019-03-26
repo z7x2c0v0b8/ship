@@ -180,7 +180,7 @@ test[r][l]
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="cat_or_me.jpg" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]
