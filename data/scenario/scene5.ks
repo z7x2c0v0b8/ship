@@ -355,12 +355,11 @@ test[r][l]
 [chara_show  name=minf ]
 #六分以敏夫
 那個會長⋯⋯他害死了我的老婆，我一定要向他復仇！[p]
-
-[chara_hide  name=flower wait=false ]
 都差不多了的話，你們就趕快行動吧，可別錯過了時機。[p]
 
 
 
 [chara_hide_all]
+@layopt layer=message0 visible=false
 [bg storage="showroom_outdoor.jpg" time="3000"]
 @jump storage="scene6.ks"

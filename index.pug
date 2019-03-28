@@ -8,7 +8,8 @@ html(lang='en')
     link(rel='stylesheet', href='./css/style.css')
     link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css')
     link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css')
-    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css')  
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css')
+    link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700')    
     link(rel="icon", href="https://i.imgur.com/TkId2V2.png", type="image/png")
 
 block body_navigation
@@ -40,12 +41,12 @@ body
       a(href="../index.html")
         #logo
       #menu_item
-        a(href="../about.html")
-          .item About
         a(href="../gallery.html") 
           .item Gallery
-        .item Bonus
-        .item Infor
+        a(href="../bonus_pas.html") 
+          .item Bonus
+        a(href="../infor.html") 
+          .item Infor
 
   script.
     $(document).ready(function(){

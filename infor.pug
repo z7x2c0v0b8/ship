@@ -1,0 +1,107 @@
+html(lang='en')
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(charset='UTF-8')
+    title 豪華GAY船與色誘團
+    link(rel='stylesheet prefetch', href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet prefetch', href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='./css/style.css')
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css')
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css')
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css')
+    link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Permanent+Marker')    
+    link(rel="icon", href="https://i.imgur.com/TkId2V2.png", type="image/png")
+
+block body_navigation
+  include navigation     
+body
+  .page
+    section#about
+      .container
+        .row
+          .col-md-6.col-sm-12(style="padding: 0")
+            .left_img
+              ul
+                li 本網站(遊戲)為克蘇魯TRPG「豪華客船と怪盗団」遊玩過程記錄，並經二創調整過內容，不完全代表劇本本身劇情。
+                li 本網站(遊戲)純屬團務( 2017.4.7 )紀念。
+                li 團務成員：
+                  br
+                  | KP - 
+                  a(href="https://www.plurk.com/mahousyoujo", target="_blank") 阿羊
+                  br
+                  |PL -
+                  br
+                  | 樂正冉 - 
+                  a(href="https://www.plurk.com/mahousyoujo", target="_blank") 八音諧
+                  br
+                  | 墨花 - 
+                  a(href="https://www.plurk.com/AiLis", target="_blank") 檸檸
+                  br
+                  | 濡娘 - 
+                  a(href="https://www.plurk.com/juliaht890578", target="_blank") 啾哩
+                  br
+                  | 黑美人 - 
+                  a(href="https://www.plurk.com/vusu6531", target="_blank") 犀牛
+
+          .col-md-6.col-sm-12(style="padding: 0")
+            .right_about
+              h3 資源與素材
+              h4 遊戲框架 - 
+                a(href="https://tyrano.jp/", target="_blank") TyranoScript
+              h4 背景音樂、音效
+              ul
+                li 
+                  a(href="https://dova-s.jp/", target="_blank") DOVA-SYNDROME
+                li Persona 5 OST
+                  br
+                  | - Hymn of the Soul (Velvet Room Theme)
+                  br
+                  | - Life Will Change
+                li 中華一番 OST 
+                  br 
+                  | - 萬里的長城
+              h4 主視覺、立繪 - 八音諧
+              h4 事件CG - 八音諧、檸檸、啾哩、犀牛、紅、愛玉
+
+        .main_img
+
+    section#landing_menu
+      a(href="../index.html")
+        #logo
+      #menu_item.hidden-xs
+        a(href="../gallery.html") 
+          .item Gallery
+        a(href="../bonus_pas.html") 
+          .item Bonus
+        .item Infor
+      #menu_btn_mobile.visible-xs
+        .icon.fa.fa-bars
+      .menu_item_mobile
+        ul
+          a(href="../gallery.html") 
+            li Gallery
+          a(href="../bonus_pas.html") 
+            li Bonus
+          a(href="../infor.html") 
+            li Infor
+
+
+  script.
+    $(document).ready(function(){
+      $('.your_class').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    });
+    $('.icon').on('click', function() {
+      $(this).toggleClass('on');
+      $('.menu_item_mobile').fadeToggle(200);
+    });
+  script(type='text/javascript', src="//code.jquery.com/jquery-1.11.0.min.js")
+  script(type='text/javascript', src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+  script(type='text/javascript', src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js")
+
+
+ 
+
+
