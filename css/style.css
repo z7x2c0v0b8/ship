@@ -282,14 +282,27 @@ section#about .left_img {
   background-image: url("../Images/landing_img_mobile.png");
   background-size: cover;
   background-color: #ffdee5; }
+
+section#about .bonus_img {
+  background: #adadad;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-align: justify;
+  padding: 80px 60px 60px 200px;
+  background-image: url("../Images/bonus.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffdee5; }
   @media (max-width: 790px) {
-    section#about .left_img {
+    section#about .bonus_img {
       padding: 40px; }
-      section#about .left_img ul {
+      section#about .bonus_img ul {
         padding-left: 25px; } }
-  section#about .left_img li {
+  section#about .bonus_img li {
     margin-bottom: 15px; }
-  section#about .left_img h4 {
+  section#about .bonus_img h4 {
     line-height: 27px; }
 
 section#about .right_about {

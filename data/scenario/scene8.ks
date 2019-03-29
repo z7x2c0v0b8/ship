@@ -235,7 +235,7 @@ test[r][l]
 [chara_show  name=NPC face=gay_2]
 你有聽到我們剛剛的對話吧？一起來？[p]
 #警衛B
-嗯⋯⋯到也不是不行，那走吧，速戰速決。[p]
+嗯⋯⋯倒也不是不行，那走吧，速戰速決。[p]
 
 [chara_hide_all time=0]
 [chara_show  name=ball face=angry]
@@ -349,7 +349,7 @@ test[r][l]
 
 [chara_show  name=cat face=ops]
 #黑美人
-喵喵喵喵！鑽石不見了喵！剛剛還雕在我嘴裡的，千真萬確啊喵！[p]
+喵喵喵喵！鑽石不見了喵！剛剛還叼在我嘴裡的，千真萬確啊喵！[p]
 
 @fadeoutbgm time="3000"
 @playse storage=step_quick.ogg loop=false
