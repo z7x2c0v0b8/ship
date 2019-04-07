@@ -300,7 +300,10 @@ test[r][l]
 
 [bg storage="showroom_alter.jpg" method="crossfade" time="5000"]
 
-
+@layopt layer=message0 visible=true
+[chara_show  name=zang face=ops]
+#樂正冉
+嗯呸呸呸，那兩人果真是很久沒清唄，腥味實在有夠嗆的⋯⋯嗯？濡娘你這是？[p]
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
@@ -319,18 +322,21 @@ test[r][l]
 #濡娘
 喵喵喵喵！喵喵～[p]
 
-[chara_show  name=zang face=ops]
-#樂正冉
-嗯呸呸呸，果真是很久沒清唄，這腥味實在有夠嗆的⋯⋯嗯？濡娘你這是？[p]
+[chara_show  name=ball face=ops]
+
 #秦毬
 ⋯⋯濡娘看來是被這副場景給嚇壞了，現在只會學黑美人喵叫。[p]
+
+[chara_show  name=zang face=ops]
 
 #樂正冉
 欸？！欸拜託我才是最該被嚇壞的人吧！？[p]
 我就只是隨口說說罷了還真沒想到他們很久沒處理這件事了，那動作實在———。[p]
-[chara_show  name=ball face=angry]
+
+[chara_mod  name=ball face=angry]
 #秦毬
 樂正冉你閉嘴。[p]
+
 [chara_mod name=zang face=hmm time=0]
 #樂正冉
 啊，喔⋯⋯喔屋⋯⋯。[p]

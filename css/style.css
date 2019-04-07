@@ -326,12 +326,17 @@ section#about a {
 section#gallery .container {
   height: 70vh; }
   section#gallery .container .your_class {
-    background: #ff66d6; }
+    background: #f1f1f1; }
     section#gallery .container .your_class .item {
       opacity: 1;
       -webkit-transition: all .3s;
       -o-transition: all .3s;
-      transition: all .3s; }
+      transition: all .3s;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      @media (max-width: 790px) {
+        section#gallery .container .your_class .item {
+          background-size: cover; } }
       section#gallery .container .your_class .item .word {
         position: relative;
         float: right;
@@ -350,8 +355,11 @@ section#gallery .container {
           position: absolute;
           top: 20px;
           right: 0;
-          color: #fff;
+          color: #949494;
           font-size: 5rem; }
+          @media (max-width: 790px) {
+            section#gallery .container .your_class .item .word .name {
+              color: #fff; } }
         section#gallery .container .your_class .item .word .content {
           max-height: 460px;
           overflow: auto;

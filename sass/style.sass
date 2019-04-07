@@ -267,10 +267,14 @@ section#gallery
   .container
     height: 70vh
     .your_class
-      background: #ff66d6
+      background: #f1f1f1
       .item
         opacity: 1
         transition: all .3s
+        background-size: contain
+        background-repeat: no-repeat
+        @media (max-width: 790px)
+          background-size: cover
         .word
           position: relative
           float: right
@@ -286,8 +290,11 @@ section#gallery
             position: absolute
             top: 20px
             right: 0
-            color: #fff
+            color: #949494
             font-size: 5rem
+            @media (max-width: 790px)
+              color: #fff
+
           .content
             max-height: 460px
             overflow: auto
