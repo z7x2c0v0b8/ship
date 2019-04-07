@@ -360,7 +360,7 @@ test[r][l]
 @fadeoutbgm time="3000"
 @playse storage=step_quick.ogg loop=false
 #
-達達———
+達達———[p]
 
 @fadeinbgm time="3000" storage=hurry_up.ogg loop=true
 [chara_hide_all time=0]
