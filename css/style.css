@@ -356,10 +356,11 @@ section#gallery .container {
           top: 20px;
           right: 0;
           color: #949494;
-          font-size: 5rem; }
+          font-size: 4rem; }
           @media (max-width: 790px) {
             section#gallery .container .your_class .item .word .name {
-              color: #fff; } }
+              color: #fff;
+              font-size: 4rem; } }
         section#gallery .container .your_class .item .word .content {
           max-height: 460px;
           overflow: auto;

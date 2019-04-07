@@ -96,10 +96,10 @@ test[r][l]
 [font color="0x454D51"]
 
 #墨花
-黃金槍好麻煩喔⋯⋯乾脆把它夾在乳溝裡好了。[p]
+黃金槍好麻煩喔……乾脆把它夾在乳溝裡好了。[p]
 
 #秦毬
-這把槍現在黏在你的手上你是要怎麼夾進去⋯⋯[p]
+這把槍現在黏在你的手上你是要怎麼夾進去……[p]
 
 #樂正冉
 就整隻手都夾進去？[p]
@@ -111,7 +111,7 @@ test[r][l]
 
 [chara_show  name=minf]
 #???
-呀~你們都很順利地上了客船了呢[p]
+呀～你們都很順利地上了客船了呢。[p]
 
 [chara_hide_all time=0]
 
@@ -136,11 +136,11 @@ test[r][l]
 
 [chara_show  name=zang face=hmm]
 #樂正冉
-欸⋯⋯娃娃機⋯⋯欸？！走掉了⋯⋯真是個奇怪的老人。[p]
+欸……娃娃機……欸？！走掉了……真是個奇怪的老人。[p]
 
 [chara_mod  name=zang face=happy]
 #樂正冉
-嗯⋯⋯既然都來了，我們要不要隨機闖入一個房間偷點東西再走？[p]
+嗯……既然都來了，我們要不要隨機闖入一個房間偷點東西再走？[p]
 
 [chara_show  name=flower face=happy]
 #墨花
@@ -158,7 +158,7 @@ test[r][l]
 
 [chara_show  name=flower ]
 #墨花
-我來聽聽門後有沒有人～[p]
+我來聽聽門後有沒有人。[p]
 
 [chara_hide_all time=0]
 
@@ -169,7 +169,7 @@ test[r][l]
 
 [chara_show  name=zang face=happy]
 #樂正冉
-ㄜ⋯⋯這個是我們的房間，我們忘記帶鑰匙了進不去，哈哈真是糊塗了我！[p]
+ㄜ……這個是我們的房間，我們忘記帶鑰匙了進不去，哈哈真是糊塗了我！[p]
 
 #警衛
 那把船票拿出來我看看。[p]
@@ -178,7 +178,7 @@ test[r][l]
 
 [chara_show  name=zoo face=ops]
 #濡娘
-喔嗚⋯⋯那個，我們是一個老人家的幫傭，船票都在他那呢我們沒有。[p]
+喔嗚……那個，我們是一個老人家的幫傭，船票都在他那呢我們沒有。[p]
 
 #警衛
 那你們的主人在哪？說！[p]
@@ -191,7 +191,7 @@ test[r][l]
 [chara_hide_all time=0]
 [chara_show  name=ball face=happy]
 #秦毬
-他去上廁所了很快就會回來⋯⋯你看，他正跑著過來呢。[p]
+他去上廁所了很快就會回來……你看，他正跑著過來呢。[p]
 
 [chara_show  name=minf]
 #???
@@ -205,14 +205,14 @@ test[r][l]
 你數到三，他就會出現在你的面前。[p]
 
 #警衛
-你少唬我！⋯⋯一、二、三！[p]
+你少唬我！……一、二、三！[p]
 
 [chara_show  name=minf]
 #???
 哎、哎呀～沒事沒事，他們都是我的隨從沒錯！[p]
 
 #警衛
-哇⋯⋯真厲害。[p]
+哇……真厲害。[p]
 @jump target=*common_5
 
 *common_5
@@ -220,7 +220,7 @@ test[r][l]
 [chara_hide_all time=0]
 [chara_show  name=akane]
 #警衛
-嗯⋯⋯好吧，知道了，那就不再打擾你們了，我先離開了。[p]
+嗯……好吧，知道了，那就不再打擾你們了，我先離開了。[p]
 
 [chara_hide_all ]
 
@@ -233,14 +233,14 @@ test[r][l]
 可是我們不是小孩，我們想偷東西啊！[p]
 
 #???
-總之那裏有好東西啦快去看快去看[p]
+總之那裏有好東西啦快去看快去看！[p]
 
 [chara_hide name=minf ]
 @playse storage=step.ogg loop=false
 
 [chara_mod  name=zang face=angry]
 #樂正冉
-啥⋯⋯又走了。我們別管他繼續偷唄。[p]
+啥……又走了。我們別管他繼續偷唄。[p]
 
 [chara_show  name=zoo ]
 #濡娘
@@ -249,7 +249,7 @@ test[r][l]
 
 [chara_mod  name=zang face=happy]
 #樂正冉
-嗯嗚⋯⋯你說的是，那好！去操縱室看看唄[p]
+嗯嗚……你說的是，那好！去操縱室看看唄[p]
 
 
 @layopt layer=message0 visible=false
@@ -279,10 +279,10 @@ test[r][l]
 
 #樂正冉
 嗚哇，這邊也有警衛！[p]
-他們看起來特別帥......我們一定打不過的快撤吧！[p]
+他們看起來特別帥……我們一定打不過的快撤吧！[p]
 
 #秦毬
-不，比起這個，他們之間產生的氛圍好像不適合我們介入......。[p]
+不，比起這個，他們之間產生的氛圍好像不適合我們介入……。[p]
 
 #墨花
 這是多元成家的味道！[p]

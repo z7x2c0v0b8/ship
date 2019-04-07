@@ -98,7 +98,7 @@
 #樂正冉
 誒誒誒，你怎能喝酒呢？那杯就給我吧。[p]
 [chara_mod name=zang face=happy time=0]
-我幫你點個....柳橙汁？[p]
+我幫你點個……柳橙汁？[p]
 [chara_show  name=ball face=ops]
 #秦毬
 啥？[p]
@@ -120,7 +120,7 @@
 [chara_hide_all time=0]
 [chara_show  name=bar]
 #酒保
-好、好的，請稍後[p]
+好、好的，請稍後。[p]
 [chara_hide  name=bar wait=false time=0]
 
 [chara_show  name=flower face=angry]
@@ -132,12 +132,12 @@
 
 [chara_show  name=zang face=angry]
 #樂正冉
-這裡的氣氛有點冷啊~放點音樂來熱熱場子唄？[p]
+這裡的氣氛有點冷啊～放點音樂來熱熱場子唄？[p]
 
 [chara_hide_all time=0]
 [chara_show  name=bar]
 #酒保
-這⋯⋯這是我們的疏忽，我現在就找個音樂來。[p]
+這……這是我們的疏忽，我現在就找個音樂來。[p]
 [chara_hide  name=bar wait=false time=0]
 
 @fadeoutbgm time="3000"
@@ -145,14 +145,14 @@
 
 [chara_show  name=zang face=angry]
 #樂正冉
-⋯⋯原來是這種酒店啊？[p]
+……原來是這種酒店啊？[p]
 
 #酒保
 這裡是酒吧！[p]
 
 [chara_show  name=zoo face=ops]
 #濡娘
-嗯？⋯⋯我們好像應該問他些什麼。[p]
+嗯？……我們好像應該問他些什麼。[p]
 
 [chara_hide_all time=0]
 
@@ -179,27 +179,27 @@
 嗯？怎麼說[p]
 
 #酒保
-哎呀這個...不好說。[p]
+哎呀這個……不好說。[p]
 
 [chara_hide_all time=0]
 [chara_show  name=flower face=happy]
 #墨花
-唉呦帥哥帥哥~講給我們嘛，人家想聽八卦～[p]
+唉呦帥哥帥哥～講給我們嘛，人家想聽八卦～[p]
 
 [chara_hide_all time=0]
 [chara_show  name=bar]
 #酒保
-哎⋯⋯真拿小姐沒辦法。[p]
+哎……真拿小姐沒辦法。[p]
 上次那個會長來我們酒吧的時候，他竟然說要找一個在夜晚出現帶著沼澤氣味的河童？[p]
-那人看起來一本正經卻滿口都是這種怪力亂神的事情，真是叫人噁心⋯⋯[p]
+那人看起來一本正經卻滿口都是這種怪力亂神的事情，真是叫人噁心……[p]
 
 [chara_hide_all time=0]
 [chara_show  name=ball]
 #秦毬
-河童⋯⋯那你知道他人現在在哪嘛？[p]
+河童……那你知道他人現在在哪嘛？[p]
 
 #酒保
-他人現在應該在會場附近巡視吧。？[p]
+他人現在應該在會場附近巡視吧？[p]
 
 [chara_show  name=zang face=happy]
 #樂正冉
@@ -208,15 +208,15 @@
 [chara_hide_all time=0]
 [chara_show  name=bar]
 #酒保
-欸？嗯⋯⋯既然他都這麼認真在講了那大概就是喜歡些怪力亂神的東西吧？[p]
+欸？嗯……既然他都這麼認真在講了那大概就是喜歡些怪力亂神的東西吧？[p]
 
 [chara_show  name=zoo]
 #濡娘
-那他一定會喜歡我們的貓，他會說ㄍㄋㄋ[p]
+那他一定會喜歡我們的貓，他會說ㄍㄋㄋ。[p]
 
 #酒保
 ？？？？？？[p]
-啊...這貓我是沒太大的興趣，不過你們認識那把槍嗎？掛在牆上的那把。[p]
+啊……這貓我是沒太大的興趣，不過你們認識那把槍嗎？掛在牆上的那把。[p]
 
 [chara_hide_all time=0]
 [chara_show  name=zang face=angry]
@@ -227,7 +227,7 @@
 #酒保
 啊行行，不知道吧！[p]
 那把槍啊就跟大船上除魔的東西一樣，是不知道還能不能使用的舊東西了。[p]
-不過聽說等一個成熟的時機到了，槍身就會發出光芒⋯⋯[p]
+不過聽說等一個成熟的時機到了，槍身就會發出光芒……[p]
 擊破真實之後便能驅走惡魔，是把很厲害的槍呢！[p]
 
 [chara_hide_all time=0]
@@ -258,19 +258,19 @@ test[r][l]
 [current layer="message0"]
 [font color="0x454D51"]
 #墨花
-就⋯⋯就是J個！！[p]
+就……就是J個！！[p]
 #酒保
-這⋯⋯這怎麼可⋯⋯可能[p]
+這、這怎麼可……可能[p]
 
 [bg storage="bar.jpg" method="crossfade" time="1000"]
 
 [chara_show  name=flower face=angry]
 #墨花
-嗯奇怪....怎麼拿不下來？！[p]
+嗯奇怪……怎麼拿不下來？！[p]
 
 [chara_show  name=zang face=happy]
 #樂正冉
-嗯~好可惜啊，如果要賣這把槍的話，就要連墨花都要一起賣出去了呢。賣槍贈美人！[p]
+嗯～好可惜啊，如果要賣這把槍的話，就要連墨花都要一起賣出去了呢。賣槍贈美人！[p]
 
 [chara_mod name=flower face=ops time=0]
 #墨花
@@ -280,13 +280,13 @@ test[r][l]
 
 [chara_show  name=cat face=ops]
 #黑美人
-喵嗚~~~~~~喵！[p]
+喵嗚～～喵！[p]
 
 [chara_hide_all time=0]
 
 [chara_show  name=flower face=angry]
 #墨花
-好吧.....那我先把我的手藏在袖子裡吧！[p]
+好吧……那我先把我的手藏在袖子裡吧！[p]
 
 [chara_hide_all]
 @layopt layer=message0 visible=false

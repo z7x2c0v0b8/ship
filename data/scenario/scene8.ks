@@ -76,7 +76,7 @@
 
 [chara_show  name=zang face=ops]
 #樂正冉
-哇⋯⋯這人意外的多啊，而且確實就跟老人給的情報一樣還有兩個警衛守在小的展示廳門口。[p]
+哇……這人意外的多啊，而且確實就跟老人給的情報一樣還有兩個警衛守在小的展示廳門口。[p]
 
 [chara_show  name=flower face=ops]
 #墨花
@@ -94,7 +94,7 @@
 [cm]
 [chara_show  name=zang ]
 #樂正冉
-這個嘛⋯⋯就用老招式！緊要關頭嘛，也暫時想不到其他辦法，將就一下囉！[p]
+這個嘛……就用老招式！緊要關頭嘛，也暫時想不到其他辦法，將就一下囉！[p]
 [chara_show  name=ball face=ops]
 #秦毬
 你——！[p]
@@ -102,7 +102,7 @@
 #樂正冉
 毬就在墨花那待命吧！我這裡不用擔心。[p]
 #秦毬
-⋯⋯。[p]
+……。[p]
 @jump target=*common_9
 
 *j10
@@ -115,7 +115,7 @@
 
 [chara_show  name=ball face=ops]
 #秦毬
-⋯⋯。[p]
+……。[p]
 @jump target=*common_9
 
 *common_9
@@ -154,7 +154,7 @@ test[r][l]
 
 [chara_show  name=cat face=happy]
 #黑美人
-喵⋯⋯先潛行到小展示嗎？這難不倒我喵⋯⋯[p]
+喵……先潛行到小展示嗎？這難不倒我喵！[p]
 [chara_mod  name=cat face=ops]
 喵嗚？ 喵——！！[p]
 
@@ -163,17 +163,17 @@ test[r][l]
 [chara_show  name=NPC face=gay_1]
 #守衛
 哎呀，這裡怎麼會有小貓咪呢？[p]
-好可愛，但是還是不能待在這喔，這邊都是些貴重物品[p]
+好可愛，但是還是不能待在這喔，這邊都是些貴重物品。[p]
 
 [chara_show  name=zang face=ops]
 #樂正冉
-啊哈哈，抱歉各位警衛先生，剛剛跑進去的是我養的貓[p]
+啊哈哈，抱歉各位警衛先生，剛剛跑進去的是我養的貓。[p]
 [chara_mod name=zang face=happy time=0]
 他特別活潑總是到處亂跑，總算是被你撿到了，真的得謝謝你們呀！[p]
 
 [chara_show  name=zang ]
 #樂正冉
-嗯？⋯⋯你們喜歡貓嗎？剛剛好像有看到你們玩在一塊兒呢！[p]
+嗯？……你們喜歡貓嗎？剛剛好像有看到你們玩在一塊兒呢！[p]
 
 #警衛A
 嗯，可愛的小動物誰不喜歡呢？[p]
@@ -195,20 +195,20 @@ test[r][l]
 
 #樂正冉
 哈哈，那你覺得如何？[p]
-是這貓可愛呢？⋯⋯還是我可愛呀？[p]
+是這貓可愛呢？……還是我可愛呀？[p]
 
 #警衛A
 嗯唔———我是覺得你長得蠻不錯的啊。[p]
 
 #樂正冉
-真巧！我也覺得小哥哥長的特別對我的胃口⋯⋯要不這樣如何？[p]
+真巧！我也覺得小哥哥長的特別對我的胃口……要不這樣如何？[p]
 這艘船上總少不了一些空的艙房唄？我們找間空的交流一下？[p]
 
 [bg storage="showroom.jpg" method="crossfade" time="1000"]
 
 [chara_show  name=NPC face=gay_1]
 #警衛A
-這⋯⋯這不太好吧，我還有工作在身呢。[p]
+這……這不太好吧，我還有工作在身呢。[p]
 
 [chara_show  name=zang face=hmm]
 #樂正冉
@@ -222,7 +222,7 @@ test[r][l]
 這會憋壞身子的，別之後就因為這個原因傷了身，我可心疼了。[p]
 
 #警衛A
-這⋯⋯[p]
+這……。[p]
 
 [chara_mod name=zang face=happy time=0]
 #樂正冉
@@ -231,11 +231,11 @@ test[r][l]
 [chara_hide  name=zang wait=false time=300]
 
 #警衛A
-啊～好好好，都聽你的了⋯⋯欸，還玩貓啊？[p]
+啊～好好好，都聽你的了……欸，還玩貓啊？[p]
 [chara_show  name=NPC face=gay_2]
 你有聽到我們剛剛的對話吧？一起來？[p]
 #警衛B
-嗯⋯⋯倒也不是不行，那走吧，速戰速決。[p]
+嗯……倒也不是不行，那走吧，速戰速決。[p]
 
 [chara_hide_all time=0]
 [chara_show  name=ball face=angry]
@@ -303,7 +303,7 @@ test[r][l]
 @layopt layer=message0 visible=true
 [chara_show  name=zang face=ops]
 #樂正冉
-嗯呸呸呸，那兩人果真是很久沒清唄，腥味實在有夠嗆的⋯⋯嗯？濡娘你這是？[p]
+嗯呸呸呸，那兩人果真是很久沒清唄，腥味實在有夠嗆的……嗯？濡娘你這是？[p]
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
@@ -325,7 +325,7 @@ test[r][l]
 [chara_show  name=ball face=ops]
 
 #秦毬
-⋯⋯濡娘看來是被這副場景給嚇壞了，現在只會學黑美人喵叫。[p]
+……濡娘看來是被這副場景給嚇壞了，現在只會學黑美人喵叫。[p]
 
 [chara_show  name=zang face=ops]
 
@@ -339,17 +339,17 @@ test[r][l]
 
 [chara_mod name=zang face=hmm time=0]
 #樂正冉
-啊，喔⋯⋯喔屋⋯⋯。[p]
+啊，喔……喔屋。[p]
 
 [chara_hide  name=ball wait=false time=0]
 
 [chara_mod name=zang face=ops time=0]
 #樂正冉
-不過這地上的人影⋯⋯摸上去感覺也像是甚麼沒摸著一樣，黑洞嗎？[p]
+不過這地上的人影……摸上去感覺也像是甚麼沒摸著一樣，黑洞嗎？[p]
 
 [chara_show  name=flower face=happy]
 #墨花
-嗯⋯⋯這些貼在地上的人影都是大家剛剛跳著妖怪手錶時的舞姿呢！[p]
+嗯……這些貼在地上的人影都是大家剛剛跳著妖怪手錶時的舞姿呢！[p]
 
 [chara_hide_all time=0]
 

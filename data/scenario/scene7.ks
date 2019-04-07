@@ -92,18 +92,18 @@
 [chara_hide  name=zang wait=false time=0]
 #???
 呀，伍拉依努，補嗎修尼哭！[p]
-修尼哭，修尼哭修尼哭⋯⋯jaaaaa！is ja博！is ja博！！[p]
+修尼哭，修尼哭修尼哭……jaaaaa！is ja博！is ja博！！[p]
 
 [chara_hide_all time=0]
 
 [chara_show  name=zang face=ops]
 #樂正冉
-濡⋯⋯濡娘你來翻譯一下吧！他幹嘛一直指著我們啊？！[p]
+濡……濡娘你來翻譯一下吧！他幹嘛一直指著我們啊？！[p]
 
 [chara_show  name=zoo ]
 #濡娘
 嗯～他說『那個抓娃娃機在哪裡？』[p]
-『我的錢包掉了⋯⋯惡、惡魔！你們裡面有惡魔！』[p]
+『我的錢包掉了……惡、惡魔！你們裡面有惡魔！』[p]
 
 [chara_hide_all time=0]
 
@@ -150,14 +150,14 @@
 
 [chara_show  name=foreigner ]
 #???
-底耶博⋯⋯底耶波⋯⋯。[p]
+底耶博……底耶波。[p]
 
 [chara_hide_all time=3000]
 @playse storage=steo.ogg loop=false
 
 [chara_show  name=zang face=hmm]
 #樂正冉
-啊⋯⋯走掉了，看起來挺沮喪的。[p]
+啊……走掉了，看起來挺沮喪的。[p]
 
 [chara_show  name=flower face=angry]
 #墨花

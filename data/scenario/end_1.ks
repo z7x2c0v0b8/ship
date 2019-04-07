@@ -62,13 +62,13 @@
 @playbgm time="3000" storage=end_1.ogg loop=true
 
 #???
-⋯⋯[p]
+……[p]
 
-⋯⋯？[p]
+……？[p]
 
 [chara_show  name=ball face=opsold]
 #秦毬
-⋯⋯？！[p]
+……？！[p]
 
 [chara_hide_all time=0]
 
@@ -80,7 +80,7 @@
 
 [chara_show  name=ball face=opsold]
 #秦毬
-我睡了這麼久？⋯⋯原來我剛剛都在作夢？[p]
+我睡了這麼久？……原來我剛剛都在作夢？[p]
 
 [chara_mod  name=zang face=happyold time=0]
 
@@ -91,8 +91,8 @@
 
 [chara_show  name=ball face=old]
 #秦毬
-我夢見我們在一個叫做豪華客船的地方偷取鑽石⋯⋯[p]
-遇到一個很有錢的老人給我們很高的懸賞金⋯⋯[p]
+我夢見我們在一個叫做豪華客船的地方偷取鑽石。[p]
+遇到一個很有錢的老人給我們很高的懸賞金……。[p]
 
 [chara_show  name=zang face=happyold]
 #樂正冉
@@ -104,7 +104,7 @@
 
 [chara_mod name=zang face=opsold time=0]
 #樂正冉
-誒？！這⋯⋯秦毬你定是壓力太大了才會做這種怪夢。[p]
+誒？！這……秦毬你定是壓力太大了才會做這種怪夢。[p]
 別胡思亂想哈我現在可是一身清清白白！[p]
 
 [chara_mod name=zang face=hmmold time=0]
@@ -112,7 +112,7 @@
 
 [chara_mod name=ball face=opsold time=0]
 #秦毬
-我知道，但是—[p]
+我知道，但是——。[p]
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
@@ -131,7 +131,7 @@ test[r][l]
 #樂正冉
 好了！沒什麼好但是的![p]
 我現在心底裡只有你一個，自然把你放在心上不會再做蠢事了。[p]
-嗯唔⋯⋯你若哪說時又擔心起來的話，找上我便是。[p]
+嗯唔……你若哪說時又擔心起來的話，找上我便是。[p]
 我再證明給你看我有多把你放在心上唄！哈哈！[p]
 
 #秦毬

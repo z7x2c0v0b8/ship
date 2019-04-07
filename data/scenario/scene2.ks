@@ -89,7 +89,7 @@
 [font color="0xFFFFFF"]
 [current layer="2"]
 #
-test[r][l]
+ [r][l]
 [cm]
 @layopt layer=2 visible=false
 
@@ -99,10 +99,13 @@ test[r][l]
 #黑美人
 喵我發現的！[p]
 
+[chara_show  name=zang face="ops"]
+[chara_show  name=flower face="ops"]
 #
 ————。[p]
 
 [bg storage="ship_outdoor.jpg" method="crossfade" time="1000"]
+[chara_hide_all time=0]
 [chara_show  name=zoo ]
 #濡娘
 說話的貓？嗯這我看多了，我們俄羅斯的貓都差不多這個樣子很會說話，大家不用緊張。[p]
@@ -111,7 +114,7 @@ test[r][l]
 
 [chara_show  name=zang ]
 #樂正冉
-哪，黑美人，可以幫忙引開那個站在入口處的守衛的注意嗎？ㄜ….裝可愛之類的？[p]
+哪，黑美人，可以幫忙引開那個站在入口處的守衛的注意嗎？ㄜ……裝可愛之類的？[p]
 
 [chara_hide_all time=0]
 [chara_show  name=cat face=happy]
@@ -140,17 +143,17 @@ test[r][l]
 嘿……[p]
 
 #???
-ㄟ...ㄟ~你們這是不想過是嗎？都離我離的這麼遠遠的.....啊啊不管就你跟我來吧。[p]
+ㄟ…ㄟ～你們這是不想過是嗎？都離我離的這麼遠遠的……啊啊不管就你跟我來吧。[p]
 
 [chara_hide_all time=0]
 
 [chara_show  name=NPC]
 #守衛
-好的，這位先生請入場.....小姐，你的票呢？[p]
+好的，這位先生請入場…小姐，你的票呢？[p]
 
 [chara_show name="zoo" face="happy"]
 #濡娘
-啊那個，我是這個老先生帶來的....外傭，今天是陪著他當看護的。[p]
+啊那個，我是這個老先生帶來的……外傭！今天是陪著他當看護的。[p]
 
 #???
 咳咳——對，這個人是來照顧我的，咳咳。[p]
@@ -168,10 +171,10 @@ test[r][l]
 #墨花
 對，那個外傭是外國人所以需要有人幫她翻譯才行。[p]
 [chara_hide  name=zang wait=false ]
-哥哥.....求求你嘛，他沒有我不行的....[p]
+哥哥……求求你嘛，他沒有我不行的！[p]
 
 #守衛
-啊.....好行行行，你快跟過去吧，別跟丟了啊。[p]
+啊……好行行行，你快跟過去吧，別跟丟了啊。[p]
 
 [chara_mod name=flower face=happy time=0]
 #墨花
@@ -181,7 +184,7 @@ test[r][l]
 
 [chara_show  name=ball]
 #秦毬
-(要怎麼做呢....)[p]
+(要怎麼做呢？)[p]
 
 [glink  color="black"  storage="scene2.ks"  size="20"  x="260"  width="400"  y="150"  text="交出事前造假的身分證和文件抵押獲得信任"  target="*j1"  ]
 [glink  color="black"  storage="scene2.ks"  size="20"  x="260"  width="400"  y="220"  text="我的貓跑進去了，不進去找不行"  target="*j2"  ]
@@ -257,7 +260,7 @@ test[r][l]
 [font color="0xFFFFFF"]
 [current layer="2"]
 #
-test[r][l]
+ [r][l]
 [cm]
 @layopt layer=2 visible=false
 

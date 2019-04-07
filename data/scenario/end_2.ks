@@ -65,18 +65,18 @@
 @playbgm time="3000" storage=end_2.ogg loop=true
 
 #???
-⋯⋯。[p]
+……。[p]
 
-⋯⋯？[p]
+……？[p]
 [chara_show  name=ball face=sadyoung]
 #西瑟
-！！⋯⋯。[p]
+！！……。[p]
 
 [chara_hide_all time=0]
 
 [chara_show  name=zang face=young]
 #樂正冉
-西——瑟——西瑟！⋯⋯秦毬？[p]
+西——瑟——西瑟！……秦毬？[p]
 [chara_mod name=zang face=happyyoung time=0]
 你這不是醒著嗎？怎都不應一聲啊？[p]
 
@@ -84,16 +84,16 @@
 
 [chara_show  name=ball face=sadyoung]
 #西瑟
-⋯⋯。[p]
+……。[p]
 
 
 [chara_show  name=zang face=sadyoung]
 #樂正冉
-你⋯⋯不舒服？我去把師傅叫過來——。[p]
+你……不舒服？我去把師傅叫過來。[p]
 
 
 #西瑟
-不、不是！我！⋯⋯[p]
+不、不是！我！……[p]
 
 #樂正冉
 什麼是不是我不我的啊？西瑟 · 溫戴爾你睡矇了嗎？[p]
@@ -101,7 +101,7 @@
 [chara_hide_all time=1000]
 
 #樂正冉
-⋯⋯嗯？誒等等！你、你怎麼哭起來了？[p]
+……嗯？誒等等！你、你怎麼哭起來了？[p]
 你哪裡疼了？真的不用叫師傅來？[p]
 
 [chara_show  name=ball face=cryyoung]
@@ -123,7 +123,7 @@
 一個夢？[p]
 
 #西瑟
-我不大記得中間的過程了……[p]
+我不大記得中間的過程了……。[p]
 
 [chara_mod name=ball face=sadyoung time=0]
 只記得最後我拿著一個像是武器的東西。[p]

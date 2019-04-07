@@ -53,10 +53,10 @@
 
 
 #???
-⋯⋯。[p]
+……。[p]
 
 #秦毬貓
-⋯⋯喵⋯⋯喵嗚？[p]
+……喵……喵嗚？[p]
 喵嗚！！！！[p]
 
 
@@ -72,7 +72,7 @@
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
-[bg storage="default.png" method="crossfade" time="1000"]
+[bg storage="end_4_word.jpg" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]
@@ -88,10 +88,10 @@ test[r][l]
 #墨花
 你們在幹嘛呢？一大清早就這麼熱鬧啊？[p]
 #墨花
-但是我昨天可是個備受期中折磨的學生⋯⋯[p]
-饒過我吧我今天只想把自己睡死⋯⋯安靜點，好嗎？[p]
+但是我昨天可是個備受期中折磨的學生……[p]
+饒過我吧我今天只想把自己睡死……安靜點，好嗎？[p]
 #秦毬貓
-貓嗚⋯⋯[p]
+貓嗚……[p]
 
 @layopt layer=message0 visible=false
 [bg storage="end_4_word.jpg" method="crossfade" time="1000"]

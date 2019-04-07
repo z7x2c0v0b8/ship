@@ -77,7 +77,7 @@
 
 [chara_show  name=zang face=hmm]
 #樂正冉
-ㄜ⋯⋯看來這裡現在也是不可行呢。[p]
+ㄜ……看來這裡現在也是不可行呢。[p]
 
 [chara_hide_all time=0]
 
@@ -96,15 +96,15 @@
 
 [chara_show  name=zoo face=ops]
 #濡娘
-喔屋，那個⋯⋯帶著單邊眼鏡的那位叫⋯⋯。[p]
+喔屋，那個……帶著單邊眼鏡的那位叫……。[p]
 
 [chara_show  name=cat face=angry]
 #黑美人
-六分以敏夫喵！[p]
+劉分儀喵！[p]
 
 [chara_show  name=zoo face=happy]
 #濡娘
-嗯對！我們是六分以敏夫先生的外傭。[p]
+嗯對！我們是劉分儀先生的外傭。[p]
 
 [chara_hide_all time=0]
 
@@ -116,9 +116,9 @@
 
 [chara_show  name=flower face=happy]
 #墨花
-⋯⋯握手嗎？嗯好的！謝謝會長。[p]
+……握手嗎？嗯好的！謝謝會長。[p]
 [chara_mod name=flower face=angry time=0]
-( 感覺好不舒服⋯⋯像一陣電流一樣穿過全身，而且有一種被窺視的感覺? )[p]
+( 感覺好不舒服……像一陣電流一樣穿過全身，而且有一種被窺視的感覺? )[p]
 
 [chara_hide  name=flower wait=false time=0]
 
@@ -127,7 +127,7 @@
 歐嗚不好意思，我不想跟白人以外的人握手。[p]
 
 #林也真
-欸！？⋯⋯好、好吧。[p]
+欸！？……好、好吧。[p]
 
 [chara_hide_all time=0]
 [glink  color="black"  storage="scene6.ks"  size="20"  x="260"  width="400"  y="150"  text="握手"  target="*j7"  ]
@@ -145,14 +145,14 @@
 請多指教。[p]
 
 #秦毬
-( ⋯⋯似乎可以理解方才墨花握手完後一臉猙獰的表情了。 )[p]
+( ……似乎可以理解方才墨花握手完後一臉猙獰的表情了。 )[p]
 
 @jump target=*common_7
 
 *j8
 [chara_show  name=ball face=angry]
 #秦毬
-⋯⋯。[p]
+……。[p]
 
 [chara_show  name=lin ]
 #林也真
@@ -173,7 +173,7 @@
 
 [chara_hide  name=cat ]
 #林也真
-痾痾痾痾————我⋯⋯好，你們慢慢玩，我先走了⋯⋯。[p]
+痾痾痾痾————我……好，你們慢慢玩，我先走了……。[p]
 
 [chara_show  name=zang face=ops]
 #樂正冉
@@ -186,17 +186,17 @@
 #樂正冉
 哀不是啦才不是為了這個叫住你！[p]
 [chara_mod name=zang face=angry time=0]
-⋯⋯你能把那些守衛趕走嗎，看起來好討厭啊。[p]
+……你能把那些守衛趕走嗎，看起來好討厭啊。[p]
 
 #林也真
-這⋯⋯這怎麼行？展場上一定要有守衛才能護得財寶的安全啊。[p]
+這……這怎麼行？展場上一定要有守衛才能護得財寶的安全啊。[p]
 
 [chara_mod name=zang face=happy time=0]
 #樂正冉
 那我們來當展場的守衛呢？我們很厲害的喔！[p]
 
 #會長
-啊⋯⋯別這樣啊，我這樣很困擾的啊。[p]
+啊……別這樣啊，我這樣很困擾的啊。[p]
 
 [chara_hide_all time=0]
 [chara_show  name=NPC face=black time=3000]

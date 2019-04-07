@@ -43,7 +43,7 @@
 [chara_face name="cat" face="happy" storage="chara/cat/happy.png"]
 
 ;minf
-[chara_new  name="minf" storage="chara/minf/normal.png" jname="六分以敏夫"  ]
+[chara_new  name="minf" storage="chara/minf/normal.png" jname="劉分儀"  ]
 
 ;foreigner
 [chara_new  name="foreigner" storage="chara/foreigner/normal.png" jname="???"  ]
@@ -95,15 +95,15 @@ test[r][l]
 老人家！！老人家你撐住阿！[p]
 
 
-#六分以敏夫
-咳⋯⋯咳咳，快⋯⋯快去阻止⋯⋯會長。[p]
-他在甲板上做了對付你們用的法陣⋯⋯快、快去⋯⋯不要管我。[p]
+#劉分儀
+咳……咳咳，快……快去阻止……會長。[p]
+他在甲板上做了對付你們用的法陣……快、快去……不要管我。[p]
 
 #樂正冉
 不會的老人！我們就只陪著您，您不能死阿撐住阿！[p]
 
-#六分以敏夫
-快去.....快———[p]
+#劉分儀
+快去……快———！[p]
 
 #樂正冉
 老人家！！！[p]
@@ -115,11 +115,11 @@ test[r][l]
 
 [chara_show  name=zang face=ops]
 #樂正冉
-鎮定⋯⋯我們要鎮定，我們一定會在他的身上找到支票的線索！不能放棄！[p]
+鎮定……我們要鎮定，我們一定會在他的身上找到支票的線索！不能放棄！[p]
 [chara_mod  name=zang face=hmm time=0]
-我找找看⋯⋯嗯？是紙條！[p]
+我找找看……嗯？是紙條！[p]
 [chara_mod  name=zang face=angry time=0]
-是寫給他妻子的自白信⋯⋯對現階段的我們來說不是很重要就是了。[p]
+是寫給他妻子的自白信……對現階段的我們來說不是很重要就是了。[p]
 
 [chara_show  name=flower face=ops]
 #墨花
@@ -141,7 +141,7 @@ test[r][l]
 
 [chara_show  name=flower face=happy]
 #墨花
-皇天不負苦心人⋯⋯這是太好了呢！[p]
+皇天不負苦心人……這是太好了呢！[p]
 [chara_show  name=ball]
 #秦毬
 既然錢都到手了，我們要不直接用一樓文宣上標示的救生艇離開？[p]
@@ -164,14 +164,14 @@ test[r][l]
 
 [chara_mod name=zang face=happy time=0]
 #濡娘
-大概是拿到了錢太治癒身心補正了我的精神值了喵，大概再過一下就不會再喵了喵[p]
+大概是拿到了錢太治癒身心補正了我的精神值了喵，大概再過一下就不會再喵了喵。p]
 
 [chara_hide  name=zang wait=false time=0]
 
 [chara_show  name=zoo ]
 #濡娘
 不過這個降下救生船的裝置上怎麼突然有種黏液和沼澤的氣味喵？[p]
-⋯⋯該不會貓的嗅覺都特別敏銳總會聞到這些有的沒的？[p]
+……該不會貓的嗅覺都特別敏銳總會聞到這些有的沒的？[p]
 
 [chara_hide_all time=0]
 
@@ -183,7 +183,7 @@ test[r][l]
 
 [chara_show  name=flower face=ops ]
 #墨花
-⋯⋯啊！我們不是也有在二樓的甲板上發現救生艇嗎？去看看吧！[p]
+……啊！我們不是也有在二樓的甲板上發現救生艇嗎？去看看吧！[p]
 
 @layopt layer=message0 visible=false
 [chara_hide_all time=0]
@@ -206,7 +206,7 @@ test[r][l]
 
 [chara_show  name=zoo face=ops ]
 #濡娘
-啊⋯⋯啊喂！秦毬！！⋯⋯跑進去了喵。[p]
+啊……啊喂！秦毬！！……跑進去了喵。[p]
 
 [chara_hide_all time=0]
 
@@ -251,7 +251,7 @@ test[r][l]
 
 [chara_show  name=foreigner]
 #???
-啊哈哈哈哈哈哈哈[p]
+啊哈哈哈哈哈哈哈！[p]
 #???
 遮恨簡單辣！[p]
 
@@ -269,11 +269,11 @@ test[r][l]
 
 [chara_show  name=ball face=angry ]
 #秦毬
-太好了⋯⋯木木梟就先交給我保管吧，免得又被人抓走了。[p]
+太好了……木木梟就先交給我保管吧，免得又被人抓走了。[p]
 
 [chara_show  name=flower face=angry ]
 #墨花
-啊~真是的！這樣可以了吧！趕快上甲板啦！[p]
+啊～真是的！這樣可以了吧！趕快上甲板啦！[p]
 
 @stopbgm time="3000"
 @fadeinbgm time="3000" storage=gun.ogg loop=true 
@@ -282,7 +282,7 @@ test[r][l]
 [chara_show  name=ball face=ops ]
 #秦毬
 等等！[p]
-我手上的木木梟⋯⋯把你手上的黃金槍給召喚過來了？[p]
+我手上的木木梟……把你手上的黃金槍給召喚過來了？[p]
 
 [chara_show  name=zang face=ops ]
 #樂正冉
@@ -308,8 +308,8 @@ test[r][l]
 
 [chara_show  name=ball ]
 #秦毬
-這⋯⋯這道光，我的槍在跟我產生共鳴！[p]
-這條路的盡頭⋯⋯光牆之後⋯⋯就是我們的最終站了[p]
+這……這道光，我的槍在跟我產生共鳴！[p]
+這條路的盡頭……光牆之後……就是我們的最終站了[p]
 
 [chara_show  name=zang ]
 #樂正冉
@@ -327,7 +327,7 @@ test[r][l]
 @layopt layer=message0 visible=true
 
 #秦毬
-⋯⋯這裡是？[p]
+……這裡是？[p]
 
 #???
 選擇吧，握有金色之槍的裁決者啊，擊破真正的凶手，解開真相吧。[p]

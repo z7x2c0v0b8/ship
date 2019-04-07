@@ -83,7 +83,7 @@
 
 [chara_show  name=zoo face=black]
 #濡娘
-居然被你們識破了⋯⋯不過重要的東西我已經拿到了！[p]
+居然被你們識破了……不過重要的東西我已經拿到了！[p]
 
 [chara_mod name=zoo face=monster ]
 #河童
@@ -138,7 +138,7 @@ test[r][l]
 
 [chara_show  name=zoo face=ops]
 #濡娘
-嗯⋯⋯嗯？怪了，本美人怎麼在⋯⋯一艘船上？[p]
+嗯……嗯？怪了，本美人怎麼在……一艘船上？[p]
 這個時候我不是應該要在基地裡敷臉嗎？[p]
 
 [chara_show  name=zang face=ops]
@@ -152,7 +152,7 @@ test[r][l]
 @stopbgm time="3000"
 @fadeinbgm time="3000" storage=watch.ogg loop=true
 
-那就如你所願跳一首妖怪手錶來表揚一下我好了[p]
+那就如你所願跳一首妖怪手錶來表揚一下我好了！[p]
 
 [chara_hide_all time=0]
 
@@ -164,7 +164,7 @@ test[r][l]
 #秦毬
 不會，謝謝你的十秒。[p]
 #林也真
-詳細的情況⋯⋯是這樣的，這要從—————[p]
+詳細的情況……是這樣的，這要從—————[p]
 
 [chara_hide_all time=0]
 
