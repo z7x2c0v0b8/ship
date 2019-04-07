@@ -72,7 +72,7 @@
 
 [chara_hide_all time=0]
 @layopt layer=message0 visible=false
-[bg storage="end_4_word.jpg" method="crossfade" time="1000"]
+[bg storage="end_4.jpg" method="crossfade" time="1000"]
 @layopt layer="2" visible=true
 [font color="0xFFFFFF"]
 [current layer="2"]
